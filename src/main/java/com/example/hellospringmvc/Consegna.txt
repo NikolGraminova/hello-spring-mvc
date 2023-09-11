@@ -1,0 +1,10 @@
+Creare un progetto utilizzando il tool online Spring Initializr.
+Impostare i parametri del progetto nel menu di sinistra e aggiungere le dependencies nel menu di destra:
+-Spring Web
+-Thymeleaf
+vedere  screenshot allegata
+Scaricare lo zip e importare il progetto in IntelliJ.
+Creare un Controller con un metodo che risponda alla root dell’applicazione (“/”) con una pagina contenente il testo “Hello Spring” (inserite il template html nella apposita cartella resources/templates).
+Testare l’applicazione nel browser
+
+BONUS: gestire altre due rotte dell’applicazione: about-us e terms-and-conditions. Aggiungere opportuni metodi al controller e templates che contengono un titolo e un paragrafo di testo tipo Lorem ipsum.
